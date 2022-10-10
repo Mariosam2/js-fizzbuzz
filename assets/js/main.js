@@ -13,7 +13,7 @@ classlist methods */
 
 const row = document.querySelector('.row');
 
-for(let i = 1; i < 106; i++){
+for(let i = 1; i < 101; i++){
     const box = document.createElement('div');
     box.classList.add('box')
     row.append(box);
